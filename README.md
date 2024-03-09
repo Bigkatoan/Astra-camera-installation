@@ -20,7 +20,7 @@ bash bash install.sh
 After installation, go to 
 
 ```
-SDK/<Your sdk version>/sdk
+<Your sdk version>/sdk
 ```
 
 
