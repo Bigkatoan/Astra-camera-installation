@@ -11,7 +11,7 @@ Preinstall
 sudo apt-get install build-essential freeglut3 freeglut3-dev
 ```
 
-Go to SDK folder, find your linux version, extract and open 'rules' file.
+Extract sdk zip file, chose your sdk for your os, extract one more, open rules file.
 
 ```
 bash bash install.sh
