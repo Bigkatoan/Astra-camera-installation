@@ -59,7 +59,6 @@ class Camera:
         frame_data = frame.get_buffer_as_uint16()
         depthPix = np.frombuffer(frame_data, dtype=np.uint16)
         depthPix.shape = (1, self.height, self.width)
-        depthPix = np.concatenate((depthPix, depthPix, depthPix), axis=0)
         depthPix = np.swapaxes(depthPix, 0, 2)
         depthPix = np.swapaxes(depthPix, 0, 1)
         depthPix = depthPix.astype(np.uint8)
