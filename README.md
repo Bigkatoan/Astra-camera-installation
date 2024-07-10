@@ -23,6 +23,11 @@ After installation, go to
 <Your sdk version>/sdk
 ```
 
+install openni
+```
+pip install openni
+sudo pip3 install openni #if you use tx2
+```
 
 Copy and replace libs to folder contain test.py
 replug your camera and have fun.
