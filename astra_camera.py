@@ -61,7 +61,6 @@ class Camera:
         depthPix.shape = (1, self.height, self.width)
         depthPix = np.swapaxes(depthPix, 0, 2)
         depthPix = np.swapaxes(depthPix, 0, 1)
-        depthPix = depthPix.astype(np.uint8)
         return depthPix
     
     def get_color(self):
